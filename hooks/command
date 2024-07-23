@@ -1,6 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 
+echo "setting envs"
+export USER="JohnDoe"
+export PASSWORD="Welcome@123"
+
 echo "--- Searching for Clowns 🤡 $USER"
 echo "$BUILDKITE_BUILD_CHECKOUT_PATH"
 echo "print user ${USER}"
