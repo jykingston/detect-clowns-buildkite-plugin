@@ -7,6 +7,8 @@ echo "print user ${USER}"
 
 if grep -inr -C1 "🤡" . ; then
   echo "^^^ +++"
-  echo "+++ :warning: Detected clowns! 🔪 $USER"
+  echo "+++ :warning: Detected clowns! 🔪 Username: ${USER}"
+  echo "Print username with escaping? $$USER"
+  echo "Print without? $USER"
   exit 1
 fi
