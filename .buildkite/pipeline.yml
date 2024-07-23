@@ -1,4 +1,7 @@
 steps:
+  - label: "test echo"
+    command: echo "$USER $PASSWORD"
+     
   - label: "🤡 :hammer:"
     plugins:
       - plugin-tester#v1.1.1: ~
